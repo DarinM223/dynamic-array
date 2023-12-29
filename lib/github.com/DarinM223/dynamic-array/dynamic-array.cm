@@ -1,0 +1,11 @@
+library
+  signature DYNAMIC_ARRAY
+  signature MONO_DYNAMIC_ARRAY
+  structure DynamicArray
+  functor DynamicArrayFn
+is
+  $/basis.cm
+  dynamic-array-sig.sml
+  mono-dynamic-array-sig.sml
+  dynamic-array.sml
+  dynamic-array-fn.sml

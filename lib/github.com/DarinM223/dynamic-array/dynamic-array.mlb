@@ -1,0 +1,7 @@
+$(SML_LIB)/basis/basis.mlb
+local
+  array-stub.sml
+in
+  dynamic-array.sml
+  dynamic-array-fn.sml
+end
